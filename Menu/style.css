@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    width: 100%;
+    height: 100%; 
+    background-color: #ffffff; 
+    font-family: 'Albert Sans',Sans-Serif;
+}
+
+.container {
+	width: 80%;
+	height: 100%;
+}
+
+.profile {
+	width: 50px;
+	height: 50px;
+	float: left;
+	position: relative;
+	margin: 20px;
+}
+.text-hallo {
+	font-size: 25px;
+	float:left;
+	top: 30px;
+	position: relative;
+}
+.lonceng {
+	height: 25px;
+	width: 30px;
+	float: right;
+	margin: 40px auto;
+	left: 20%;
+	position: relative;
+}
+
+
+.textwhere {
+	font-size: 40px;
+	position: absolute;
+	margin-top: 140px;
+	float: left;
+	left: 20px
+}
+
+
+
+/* colom search */
+form {
+    width: 100%;
+    margin: 260px auto;
+    position: absolute;
+    border-radius: 20px;
+}
+.search {
+	font-size: 20px;
+	margin-left: 3%;
+	font-family: 'Albert Sans',Sans-Serif;
+    padding: 8px 15px;
+    height: 50px;
+    width: 70%;
+    background: white;
+    border-radius: 20px;
+    border:0px solid #dbdbdb;
+    box-shadow: 1px 1px 10px #adadad;
+}
+.button {
+	font-size: 20px;
+	width: 15%;
+	height: 70px;
+	font-family: 'Albert Sans',Sans-Serif;
+    position:relative;
+    padding:6px 15px;
+    left: 8px;
+    border:2px solid #53bd84;
+    border-radius: 20px;
+    background-color:#53bd84;
+    color:#fafafa;
+} 
+
+/* colom category */
+
+.container-cate {
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	margin-top: 350px;
+}
+.text-cate {
+	font-size: 35px;
+	margin-left: 18px;
+}
+.box-cate {
+	display: flex;
+	margin: 20px auto;
+	width: 100%;
+	overflow: auto;  /* membuat slide bisa di geser */
+	white-space: nowrap; /* ke di atas*/
+    
+}
+.box-cate h4 {
+	font-size: 20px;
+	width: 110px;
+    height: 20px;
+    margin: 5px; 
+    border-radius: 20px;
+    background-color: #f3f8f9;
+    text-align: center;
+    color: #53bd84;
+    padding: 10px 30px; /* supaya lingkarang category nya ngga mepet klo di tambah categorybaru */
+}
+
+
+/* jika tombol di tekan akan berubah warna nya*/
+h4:hover {
+	background-color: #53bd84;
+	color: white;
+}
+
+
+
+/* colom image slide */
+.container-img {
+	display: flex;
+	width: 100%;
+	height: 43%;
+	position: absolute;
+	margin: 480px auto;
+	overflow: auto;  /* membuat slide bisa di geser */
+	white-space: nowrap; /* ke di atas*/
+}
+
+.img-slide img{
+	 height: 100%;
+	 width: 50%;
+	 margin-left: 15px;
+	 border-radius: 20px;
+	 position: relative;
+
+}
+
+
+
+
+/* navigasi bawah */
+.nav-bawah {
+	Display:flex;
+	top: 850px;
+	width: 125%;
+	height: 10%;
+	position: relative;
+    box-shadow: 1px 1px 10px #adadad;
+    border-radius: 30px;
+    
+}
+.nav-bawah > * {
+	 height: 5%;
+	 width: 5%;
+	 margin: 25px auto;
+	 position: relative;
+	 
+}
